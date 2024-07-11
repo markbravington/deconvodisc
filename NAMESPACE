@@ -1,0 +1,7 @@
+useDynLib( deconvodisc, .registration=TRUE)
+export( "deconvodisc")
+import( stats)
+import( mvbutils)
+import( mgcv)
+import( TMB)
+

@@ -1,0 +1,9 @@
+Package: deconvodisc
+Title: Discrete deconvolution via smoothers
+Version: 1.0.116
+Author: M.V. Bravington
+Description: Deconvolves count samples from unknown discrete distros subjected to known discrete convolution matrix
+Maintainer: Mark Bravington <markb2@summerinsouth.net>
+Imports: stats, mvbutils, mgcv, TMB
+LinkingTo: TMB, RcppEigen
+License: GPL-2
